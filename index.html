@@ -21,6 +21,9 @@
         rel="stylesheet">
 
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/b9b5ed8ed9.js" crossorigin="anonymous"></script>
+
     <!-- Tailwind Config Customization -->
     <script>
         tailwind.config = {
@@ -29,6 +32,8 @@
                     colors: {
                         clifford: '#da373d',
                         'btbg': 'rgb(255, 220, 38)',
+                        'navbg': 'rgb(255, 249, 244)',
+                        'tc': 'rgb(17, 17, 17)',
                         'cardbg': 'rgb(249, 223, 138)',
                         'footerbg': 'rgba(255, 220, 38, 0.5)',
                         'sectionbg': 'rgba(255, 220, 38, 0.5)',
@@ -44,6 +49,44 @@
 </head>
 
 <body>
+    <header>
+        <!-- nav Section -->
+        <section class="bg-navbg w-screen border-b border-black border-[0.5px] lg:border-none">
+
+            <nav class=" w-[calc(100vw-32px)] lg:w-[calc(100vw-340px)] flex items-center justify-between sora py-4 lg:py-5 mx-auto">
+                <!-- left side -->
+                <div class="flex items-center gap-3">
+                    <img src="asset/logo-header.png" alt="">
+                    <h2 class=" hidden lg:text-tc text-[26px] font-normal">Browse <span class="text-btbg">4</span>Pets</h2>
+                </div>
+
+                <!-- Center Side -->
+                <div>
+                    <ul class=" hidden lg:flex gap-8 font-normal text-tc text-[20px]">
+                        <li><a href="#">Find a pet</a></li>
+                        <li><a href="#">Breeds</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- right Side -->
+                <div class=" hidden lg:flex items-center gap-3 text-tc">
+                    <i class="fa-regular fa-bell text-2xl"></i>
+                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                    <button class="btn px-8 py-3 text-[20px] font-normal border border-btbg">Login</button>
+                    <button class="btn px-8 py-3 text-[20px] font-normal bg-btbg">Register</button>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </div>
+            </nav>
+
+        </section>
+
+    </header>
 
 </body>
 
