@@ -1,0 +1,15 @@
+
+
+/*  Font name Dicleration */
+.adlam{
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.sora {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
