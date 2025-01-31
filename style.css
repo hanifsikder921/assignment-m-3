@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+:root{
+    
+    --gradient1:rgb(248, 204, 251);
+    --gradient2:rgb(172, 210, 253);
+
+    --gra1:rgb(255, 249, 244);
+    --gra2: rgb(249, 223, 138);
+}
 /*  Font name Dicleration */
 .adlam {
     font-family: "ADLaM Display", serif;
@@ -19,3 +27,15 @@
 }
 
 
+/* card- background */
+.card1{
+    background: linear-gradient(to bottom right, var(--gradient1), var(--gradient2));
+    border-radius: 10px;
+  
+}
+
+.card2{
+    background: linear-gradient(to bottom right, var(--gra1), var(--gra2));
+    border-radius: 10px;
+   
+}
