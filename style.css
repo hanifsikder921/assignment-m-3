@@ -11,6 +11,7 @@
 
     --gra1:rgb(255, 249, 244);
     --gra2: rgb(249, 223, 138);
+    
 }
 /*  Font name Dicleration */
 .adlam {
@@ -38,4 +39,32 @@
     background: linear-gradient(to bottom right, var(--gra1), var(--gra2));
     border-radius: 10px;
    
+}
+
+
+.animtext{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 4s steps(50) infinite alternate, blink 800ms steps(30) infinite normal;
+    border-right: 1px solid black;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 55%; 
+    }
+}
+
+
+
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+    to {
+        border-color: transparent;
+    }
 }
