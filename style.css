@@ -31,17 +31,15 @@
 /* card- background */
 .card1{
     background: linear-gradient(to bottom right, var(--gradient1), var(--gradient2));
-    border-radius: 10px;
   
 }
 
 .card2{
-    background: linear-gradient(to bottom right, var(--gra1), var(--gra2));
-    border-radius: 10px;
+    background: linear-gradient(to bottom right, var(--gra1), var(--gra2)); 
    
 }
 
-
+/* animation */
 .animtext{
     white-space: nowrap;
     overflow: hidden;
